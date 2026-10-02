@@ -6,7 +6,8 @@ The grammar is known at compile time, so the generated parser is ordinary C# in 
 
 - **Parse, TryParse and Find** APIs with typed results from named captures
 - **Versions of one language** (dialects) from a single grammar
-- **Streaming** parsers over `TextReader`, error recovery for record-oriented input
+- **Feeds that people write by hand** — price lists, logs, order sheets, CSV-like files: records come out one by one as typed objects while the input is still being read, and a mistyped record is reported with its exact position and skipped instead of failing the whole file
+- **Streaming** parsers over `TextReader`
 - **Compile-time diagnostics** that point back into the grammar
 - **Visual Studio** support for `.gram` files and for grammars written inside a `[Gram]` string
 
