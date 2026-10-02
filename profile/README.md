@@ -1,6 +1,6 @@
 # .Gram
 
-**A source generator that compiles grammars into strongly typed C# parsers** — from single-character rules to the SQL standard.
+**A source generator that compiles grammars into strongly typed C# parsers** — from single-character rules and hand-written feeds to the SQL standard.
 
 The grammar is known at compile time, so the generated parser is ordinary C# in your own assembly: no parser engine, no grammar graph, no runtime library to interpret it.
 
